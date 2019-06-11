@@ -1,0 +1,68 @@
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean this module is required for running you program. Python and
+Python 3rd-party packages include a lot of conditional or optional module. For
+example the module 'ntpath' only exists on Windows, whereas the module
+'posixpath' only exists on Posix systems.
+
+Types if import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported from within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+           yourself tracking down the missing module. Thanks!
+
+missing module named pyimod03_importers - imported by c:\users\enzog\appdata\local\programs\python\python36\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py (top-level)
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named __builtin__ - imported by pkg_resources._vendor.pyparsing (conditional), pyparsing (conditional)
+missing module named ordereddict - imported by pkg_resources._vendor.pyparsing (optional), pyparsing (optional), rdflib.plugins.sparql.compat (optional)
+missing module named StringIO - imported by six (conditional), pkg_resources._vendor.six (conditional)
+missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs (delayed, conditional, optional)
+missing module named com - imported by pkg_resources._vendor.appdirs (delayed)
+missing module named __main__ - imported by pkg_resources (delayed, optional)
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named pkg_resources.extern.appdirs - imported by pkg_resources.extern (top-level), pkg_resources (top-level)
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources (top-level), pkg_resources._vendor.packaging.requirements (top-level)
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern (top-level), pkg_resources (top-level), pkg_resources.py31compat (top-level)
+missing module named resource - imported by posix (top-level), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named posix - imported by os (conditional, optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named _posixsubprocess - imported by subprocess (conditional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named 'org.python' - imported by pickle (optional), xml.sax (delayed, conditional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named readline - imported by cmd (delayed, conditional, optional), code (delayed, conditional, optional), pdb (delayed, optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named _winreg - imported by platform (delayed, optional), C:\Users\enzog\Desktop\Yago\main.py (top-level), pkg_resources._vendor.appdirs (delayed, conditional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named java - imported by platform (delayed), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named vms_lib - imported by platform (delayed, conditional, optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named termios - imported by tty (top-level), getpass (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named grp - imported by shutil (optional), tarfile (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named _dummy_threading - imported by dummy_threading (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named org - imported by copy (optional), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named pwd - imported by posixpath (delayed, conditional), shutil (optional), tarfile (optional), http.server (delayed, optional), webbrowser (delayed), netrc (delayed, conditional), getpass (delayed), C:\Users\enzog\Desktop\Yago\main.py (top-level)
+missing module named elementtree - imported by rdflib.compat (optional)
+missing module named cElementTree - imported by rdflib.compat (optional)
+missing module named lxml - imported by rdflib.compat (optional)
+missing module named 'rdflib.Graph' - imported by rdflib.plugins.parsers.pyMicrodata (conditional), rdflib.plugins.parsers.pyMicrodata.microdata (conditional), rdflib.plugins.parsers.pyRdfa (conditional), rdflib.plugins.parsers.pyRdfa.termorcurie (conditional), rdflib.plugins.parsers.pyRdfa.options (conditional), rdflib.plugins.parsers.pyRdfa.parse (conditional), rdflib.plugins.parsers.pyRdfa.rdfs (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.process (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.cache (conditional)
+missing module named 'rdflib.RDF' - imported by rdflib.plugins.parsers.pyMicrodata (conditional), rdflib.plugins.parsers.pyMicrodata.utils (conditional), rdflib.plugins.parsers.pyMicrodata.microdata (conditional), rdflib.plugins.parsers.pyRdfa (conditional), rdflib.plugins.parsers.pyRdfa.termorcurie (conditional), rdflib.plugins.parsers.pyRdfa.options (conditional), rdflib.plugins.parsers.pyRdfa.utils (conditional), rdflib.plugins.parsers.pyRdfa.transform.prototype (conditional), rdflib.plugins.parsers.pyRdfa.state (conditional), rdflib.plugins.parsers.pyRdfa.property (conditional), rdflib.plugins.parsers.pyRdfa.parse (conditional), rdflib.plugins.parsers.pyRdfa.rdfs (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.process (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.cache (conditional)
+missing module named 'rdflib.RDFS' - imported by rdflib.plugins.parsers.pyMicrodata (conditional), rdflib.plugins.parsers.pyMicrodata.microdata (conditional), rdflib.plugins.parsers.pyRdfa (conditional), rdflib.plugins.parsers.pyRdfa.termorcurie (conditional), rdflib.plugins.parsers.pyRdfa.options (conditional), rdflib.plugins.parsers.pyRdfa.state (conditional), rdflib.plugins.parsers.pyRdfa.parse (conditional), rdflib.plugins.parsers.pyRdfa.rdfs (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.process (conditional), rdflib.plugins.parsers.pyRdfa.rdfs.cache (conditional)
+missing module named simplejson - imported by rdflib.plugins.parsers.pyMicrodata.registry (conditional), rdflib.plugins.sparql.results.jsonlayer (delayed)
+missing module named 'pyRdfa.options' - imported by rdflib.plugins.parsers.pyRdfa.rdfs.process (delayed, conditional, optional), rdflib.plugins.parsers.pyMicrodata.microdata (delayed, conditional, optional)
+missing module named 'pyRdfa.rdfs' - imported by rdflib.plugins.parsers.pyRdfa.rdfs.cache (delayed), rdflib.plugins.parsers.pyMicrodata.microdata (delayed, conditional, optional)
+missing module named 'pyRdfa.initialcontext' - imported by rdflib.plugins.parsers.pyMicrodata.microdata (delayed, optional)
+missing module named 'rdflib.Literal' - imported by rdflib.plugins.parsers.pyMicrodata.microdata (conditional), rdflib.plugins.parsers.pyRdfa.property (conditional)
+missing module named UserDict - imported by rdflib.plugins.sparql.compat (optional)
+missing module named demset - imported by rdflib.plugins.parsers.pyRdfa.extras.httpheader (optional)
+missing module named pyRdfa - imported by rdflib.plugins.parsers.pyRdfa.rdfs.cache (delayed), rdflib.plugins.parsers.pyRdfa.rdfs.process (delayed, conditional, optional)
+missing module named html5lib - imported by rdflib.term (delayed, optional), rdflib.plugins.parsers.pyRdfa (delayed, conditional, optional), rdflib.plugins.parsers.pyMicrodata (delayed, optional), rdflib.plugins.parsers.structureddata (optional), rdflib.plugins.parsers.hturtle (optional)
+missing module named pyRdfaExtras - imported by rdflib.plugins.parsers.pyRdfa (delayed, optional), rdflib.plugins.parsers.pyMicrodata (delayed, optional)
+missing module named cjson - imported by rdflib.plugins.sparql.results.jsonlayer (delayed)
+missing module named bsddb3 - imported by rdflib.plugins.sleepycat (optional)
+missing module named bsddb - imported by rdflib.plugins.sleepycat (optional)
+missing module named pyMicrodata - imported by rdflib.plugins.parsers.pyMicrodata.utils (delayed, optional)
+missing module named md5 - imported by rdflib.term (optional)
+missing module named keepalive - imported by SPARQLWrapper.Wrapper (delayed, optional)
+missing module named rdflib_jsonld - imported by SPARQLWrapper.Wrapper (optional)
